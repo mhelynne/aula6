@@ -1,6 +1,7 @@
 print ("Hello World")
-a = 10
-b = 20
-print ("A soma é ", a+b)
-print ("A diferença é ", a-b)
-print ("O produto é ", a*b)
+a = int(input("Digite um número: "))
+b = int(input("Digite outro número: "))
+print ("A soma é", a+b)
+print ("A diferença é", a-b)
+print ("O produto é", a*b)
+print ("A divisão é", a/b)
